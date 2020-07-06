@@ -55,6 +55,14 @@ a:hover, a:focus {
   outline: none;
 }
 
+a.navbar-brand {
+  background: -webkit-linear-gradient( 45deg, #fff, rgb(50, 41, 245, 1) 107% ); /*rgb(96, 171, 248, 1)*/
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1;
+  padding: 5px;
+}
+
 body {
   line-height: 30px;
   font-size: 16px;
@@ -154,11 +162,12 @@ button:focus {
   padding: 13px 30px 12px;
   min-width: 230px;
   color: #fff;
-  background: #8781bd;
+  background: #416df8;
   font-weight: 600;
   text-align: center;
   display: inline-block;
-  border: 1px solid #8781bd;
+  border: 1px solid #416df8;
+  border-radius: .3rem;
   transition: background 0.4s linear, color 0.3s linear;
   position: relative;
   overflow: hidden;
@@ -192,6 +201,7 @@ button:focus {
 .theme_w_btn {
   font: 600 13px/30px "Poppins", sans-serif;
   border: 1px solid #fff;
+  border-radius: .3rem;
   display: inline-block;
   padding: 13px 20px 10px;
   letter-spacing: 4.16px;
@@ -277,7 +287,7 @@ header + section {
 }
 
 .header_top {
-  background: #8781bd;
+  background: #416df8; /*#8781bd*/
   padding: 9px 0px;
 }
 
@@ -298,9 +308,9 @@ header + section {
   width: 30px;
   height: 30px;
   font-size: 12px;
-  color: #ccc9e9;
+  color: #fff;
   line-height: 28px;
-  border: 1px solid #ccc9e9;
+  border: 1px solid #fff;
   display: inline-block;
   text-align: center;
   transition: all 0.2s linear;
@@ -308,9 +318,9 @@ header + section {
 }
 
 .header_social_icon a:hover {
-  background: #a9a5d1;
-  border-color: #a9a5d1;
-  color: #fff;
+  background: #fff;
+  border-color: #fff;
+  color: #416df8;
 }
 
 .header_social_icon a + a {
@@ -334,7 +344,7 @@ header + section {
 .menu > .nav-item > .nav-link {
   font-size: 13px;
   font-family: "Poppins", sans-serif;
-  color: #212028;
+  color: #5f5757;
   font-weight: 600;
   line-height: 36px;
   padding: 0px;
@@ -351,7 +361,8 @@ header + section {
 .menu > .nav-item.submenu .dropdown-menu {
   border: 0px;
   margin: 0px;
-  border-radius: 0px;
+  /*border-radius: 0px;*/
+  border-top: 3px solid #416df8;
   left: -30px;
   min-width: 180px;
   padding: 20px 0px;
@@ -366,6 +377,8 @@ header + section {
     opacity: 0;
     visibility: hidden;
     display: block;
+    border-radius: .3rem;
+    border-top: 3px solid #416df8;
   }
 }
 
@@ -391,7 +404,7 @@ header + section {
 }
 
 .menu > .nav-item.submenu .dropdown-menu .nav-item:hover > .nav-link, .menu > .nav-item.submenu .dropdown-menu .nav-item:focus > .nav-link, .menu > .nav-item.submenu .dropdown-menu .nav-item.active > .nav-link {
-  color: #8781bd;
+  color: #f24a59;
 }
 
 .menu > .nav-item.submenu .dropdown-menu .nav-item > .dropdown-menu {
@@ -414,18 +427,18 @@ header + section {
 
 .menu > .nav-item.active .nav-link,
 .menu > .nav-item.active .mobile_dropdown_icon {
-  color: #8781bd;
+  color: #f24a59;
   opacity: 1;
 }
 
 .menu > .nav-item:hover .nav-link {
-  color: #8781bd;
+  color: #416df8;
 }
 
 @media (min-width: 992px) {
   .menu > .nav-item:hover .dropdown-menu {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(-20px);
     visibility: visible;
   }
 }
@@ -600,7 +613,7 @@ header + section {
 }
 
 .main_slider_area .main_slider .slider_text h2 span {
-  color: #8781bd;
+  color: #f24a59;
 }
 
 .main_slider_area .main_slider .slider_text h3 {

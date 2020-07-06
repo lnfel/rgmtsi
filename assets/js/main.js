@@ -84,10 +84,11 @@
   $(".main_slider").slick({
     autoplay: true,
     autoplaySpeed: 5000,
-    dots: false,
+    dots: true,
     fade: true,
-    prevArrow: ".left_arrow",
-    nextArrow: ".right_arrow",
+    arrow: false,
+    //prevArrow: ".left_arrow",
+    //nextArrow: ".right_arrow",
   });
 
   function doAnimations(elements) {
