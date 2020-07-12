@@ -304,23 +304,27 @@ header + section {
   font-weight: 500;
 }
 
-.header_social_icon a {
+.header_social_icon {
+  font-size: .8rem;
+}
+
+.header_social_icon i {
   width: 30px;
   height: 30px;
-  font-size: 12px;
-  color: #fff;
   line-height: 28px;
+  text-align: center;
+  /*
+  color: #fff;
   border: 1px solid #fff;
   display: inline-block;
-  text-align: center;
   transition: all 0.2s linear;
-  border-radius: 50%;
+  border-radius: 50%;*/
 }
 
 .header_social_icon a:hover {
-  background: #fff;
+  /*background: #fff;
   border-color: #fff;
-  color: #416df8;
+  color: #416df8;*/
 }
 
 .header_social_icon a + a {
@@ -944,7 +948,7 @@ header + section {
 /*========== mockup_frame_area css ============*/
 /*========== theme_promo_area css ============*/
 .theme_promo_area {
-  background: #8781bd;
+  background: #416df8;/*#8781bd*/
   text-align: center;
   padding: 115px 0px;
 }
@@ -1011,8 +1015,8 @@ header + section {
   width: 100px;
   height: 100px;
   text-align: center;
-  background: #8781bd;
-  border: 1px solid #8781bd;
+  background: #f24a59;
+  border: 1px solid #f24a59;
   font-size: 30px;
   color: #fff;
   line-height: 100px;
@@ -1034,7 +1038,7 @@ header + section {
 
 .service_promo_item:hover .round {
   background: transparent;
-  color: #8781bd;
+  color: #f24a59;
 }
 
 /*========= sevice_promo_area  ===========*/
@@ -1045,11 +1049,11 @@ header + section {
 
 .sevice_promo_area_two .service_promo_item .round {
   background: transparent;
-  color: #8781bd;
+  color: #f24a59;
 }
 
 .sevice_promo_area_two .service_promo_item:hover .round {
-  background: #8781bd;
+  background: #f24a59;/*#8781bd*/
   color: #fff;
 }
 
@@ -1091,7 +1095,7 @@ header + section {
   line-height: 50px;
   font-size: 16px;
   color: #dbd9e7;
-  background: #8781bd;
+  background: #f24a59;/*#8781bd*/
   height: 50px;
   text-align: center;
   top: -1px;
@@ -1103,7 +1107,7 @@ header + section {
 
 .service_faq_info .card .card-header button .minus {
   display: inline-block;
-  background: #dbd9e7;
+  background: #f3808a;/*#dbd9e7*/
   color: #fff;
 }
 
@@ -1165,7 +1169,7 @@ header + section {
 /*========= service_area  ===========*/
 /*========= clients_logo_area  ===========*/
 .clients_logo_area {
-  background: #8781bd;
+  background: #416df8;/*#8781bd*/
 }
 
 .clients_logo_area_black {
@@ -1237,7 +1241,7 @@ header + section {
 }
 
 .features_area .overlay_bg {
-  background: #8781bd;
+  background: #416df8;/*#8781bd*/
   opacity: 0.4;
 }
 
@@ -1508,7 +1512,7 @@ header + section {
   width: 100%;
   height: 100%;
   z-index: 0;
-  background: #8781bd;
+  background: #416df8;/*#8781bd*/
   opacity: 0;
   transition: opacity 0.2s linear;
 }
@@ -1818,7 +1822,7 @@ header + section {
   font-size: 18px;
   line-height: 50px;
   color: #fff;
-  background: #8781bd;
+  background: #f24a59;/*#8781bd*/
   right: -50px;
   top: 0px;
 }
@@ -1901,7 +1905,7 @@ header + section {
 }
 
 .testimonial_thumbnil .item.slick-current .round_img {
-  border-color: #8781bd;
+  border-color: #f24a59;/*#8781bd*/
 }
 
 .testimonial_thumbnil .item.slick-current .round_img:before {
@@ -1940,7 +1944,7 @@ header + section {
   height: 0;
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
-  border-top: 7px solid #8781bd;
+  border-top: 7px solid #f24a59;/*#8781bd*/
 }
 
 /*=============  testimonial area css ============*/
@@ -1958,7 +1962,7 @@ header + section {
 }
 
 .testimonial_area_four .overlay_bg {
-  background: #8781bd;
+  background: #416df8;/*#8781bd*/
   opacity: 0.9;
 }
 
@@ -1981,7 +1985,7 @@ header + section {
 }
 
 .testimonial_area_four .testimonial_thumbnil .item:after {
-  border-top-color: #fff;
+  border-top-color: #f24a59;/*#fff*/
 }
 
 .testimonial_area_four .testimonial_thumbnil .item .round_img:before {
@@ -1994,7 +1998,7 @@ header + section {
 }
 
 .testimonial_area_four .testimonial_thumbnil .item.slick-current .round_img {
-  border-color: #fff;
+  border-color: #f24a59;/*#fff*/
 }
 
 /*=============  testimonial_area_four css ============*/
@@ -2143,7 +2147,7 @@ header + section {
   line-height: 66px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
-  background: #8781bd;
+  background: #f24a59;/*#8781bd*/
   color: #fff;
   padding: 31px 0px 37px;
 }
@@ -2183,7 +2187,7 @@ header + section {
 
 
 .h_price_item:hover, .h_price_item.active {
-  background: #8781bd;
+  background: #f24a59;/*#8781bd*/
 }
 
 .h_price_item:hover ul li, .h_price_item.active ul li {
@@ -2251,7 +2255,7 @@ header + section {
 }
 
 .h_blog_post_item:hover .post_content h3 {
-  color: #8781bd;
+  color: #416df8;/*#8781bd*/
 }
 
 .h_post_date {
@@ -2261,7 +2265,7 @@ header + section {
 }
 
 .h_post_date:hover {
-  color: #8781bd;
+  color: #416df8;/*#8781bd*/
 }
 
 .h_post_info a {
@@ -2277,7 +2281,7 @@ header + section {
 }
 
 .h_post_info a:hover {
-  color: #8781bd;
+  color: #f3808a;/*#8781bd*/
 }
 
 .h_post_info a + a {
@@ -2819,7 +2823,7 @@ header + section {
 }
 
 .h_contact_area_two .h_contact_form .form-group .form-control:focus {
-  border-color: #8781bd;
+  border-color: #416df8;/*#8781bd*/
   background: #fff;
 }
 
@@ -2895,8 +2899,8 @@ header + section {
   height: 70px;
   text-align: center;
   line-height: 70px;
-  border: 1px solid #8781bd;
-  color: #8781bd;
+  border: 1px solid #416df8;/*#8781bd*/
+  color: #416df8;/*#8781bd*/
   border-radius: 50%;
   text-align: center;
   font-size: 24px;
