@@ -283,7 +283,7 @@ header {
 
 header + div,
 header + section {
-  margin-top: 150px;
+  margin-top: 122px;
 }
 
 .header_top {
@@ -328,7 +328,7 @@ header + section {
 }
 
 .header_social_icon a + a {
-  margin-left: 11px;
+  /*margin-left: 11px;*/
 }
 
 /*============= header_top css =============*/

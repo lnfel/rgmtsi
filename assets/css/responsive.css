@@ -103,7 +103,7 @@
 @media (max-width: 991px) {
   header + div,
   header + section {
-    margin-top: 117px;
+    margin-top: 122px;
   }
   .menu > .nav-item,
   .navbar_fixed .menu > .nav-item {
@@ -385,7 +385,7 @@
   }
   header + div,
   header + section {
-    margin-top: 147px;
+    margin-top: 122px;
   }
   .navbar .container {
     padding-left: 15px;
